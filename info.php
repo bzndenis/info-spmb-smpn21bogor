@@ -164,7 +164,7 @@
                 </table>
               </div>
             </div>
-            <div class="fst-italic mb-2" style="color:#444;">Membawa dan memperlihatkan Kelengkapan Berkas Asli.</div>
+            <div class="fst-italic mb-2" style="color:#444;">Membawa dan memperlihatkan Kelengkapan Berkas Asli. </div>
             <div class="mt-4"><span class="fw-bold fs-4" style="color:var(--accent-color);">Tempat : SMPN 21 Bogor</span></div>
           </div>
         </div>
