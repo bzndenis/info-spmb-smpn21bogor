@@ -88,6 +88,7 @@
         <div class="row align-items-center">
           <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
             <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
+            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
           </div>
           <div class="col-lg-8 order-lg-1 order-2">
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR DOMISILI</h2>
@@ -128,6 +129,7 @@
         <div class="row align-items-center">
           <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
             <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
+            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
           </div>
           <div class="col-lg-8 order-lg-1 order-2">
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG AFIRMASI</h2>
@@ -168,6 +170,7 @@
         <div class="row align-items-center">
           <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
             <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
+            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
           </div>
           <div class="col-lg-8 order-lg-1 order-2">
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI RAPOR</h2>
@@ -207,6 +210,7 @@
         <div class="row align-items-center">
           <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
             <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
+            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
           </div>
           <div class="col-lg-8 order-lg-1 order-2">
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI AKADEMIK/NON AKADEMIK</h2>
@@ -246,6 +250,7 @@
         <div class="row align-items-center">
           <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
             <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
+            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
           </div>
           <div class="col-lg-8 order-lg-1 order-2">
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR MUTASI</h2>

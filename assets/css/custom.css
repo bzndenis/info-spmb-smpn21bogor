@@ -129,4 +129,17 @@ body.index-page {
   #tes-non-akademik .col-lg-8, #tes-non-akademik .col-lg-4 {
     text-align: center !important;
   }
+}
+
+.table.table-striped > tbody > tr:nth-of-type(odd) > td,
+.table.table-striped > tbody > tr:nth-of-type(odd) > th {
+  background-color: #fff !important;
+}
+.table.table-striped > tbody > tr:nth-of-type(even) > td,
+.table.table-striped > tbody > tr:nth-of-type(even) > th {
+  background-color: #e3f0fb !important;
 } 
+
+.table.table-striped > tbody > tr > * {
+  --bs-table-bg-type: unset !important;
+}
