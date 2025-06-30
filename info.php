@@ -54,12 +54,8 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-        <li><a href="#daftar-ulang-domisili"><i class="bi bi-clipboard-check navicon"></i><span>Domisili</span></a></li>
-        <li><a href="#daftar-ulang-afirmasi"><i class="bi bi-person-bounding-box navicon"></i><span>Afirmasi</span></a></li>
-        <li><a href="#daftar-ulang-prestasi-rapor"><i class="bi bi-trophy navicon"></i><span>Prestasi Rapor</span></a></li>
-        <li><a href="#daftar-ulang-prestasi-akademik-non-akademik"><i class="bi bi-book navicon"></i><span>Prestasi Akademik/Non Akademik</span></a></li>
-        <li><a href="#daftar-ulang-mutasi"><i class="bi bi-arrow-repeat navicon"></i><span>Mutasi</span></a></li>
-        <li><a href="#lokasi"><i class="bi bi-geo-alt navicon"></i><span>Lokasi</span></a></li>
+        <li><a href="#jalur-cards"><i class="bi bi-clipboard-check navicon"></i><span>Informasi</span></a></li>
+        <li><a href="#lokasi"><i class="bi bi-geo-alt navicon"></i><span>Maps</span></a></li>
       </ul>
     </nav>
 
@@ -82,20 +78,79 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Daftar Ulang Domisili SPMB SMPN 21 Bogor Section -->
-    <section id="daftar-ulang-domisili" class="section light-background" style="background: url('assets/img/buat-domisili.png') center center/cover no-repeat;">
-      <div class="container tes-kompetensi-card" data-aos="fade-up">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
-            <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
-            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
+    <!-- Card Grid Jalur Pendaftaran -->
+    <section id="jalur-cards" class="section light-background">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-4">
+          <!-- Card Domisili -->
+          <div class="col-md-4">
+            <div class="card card-jalur h-100 shadow" data-bs-toggle="modal" data-bs-target="#modalDomisili" style="cursor:pointer;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Domisili</h5>
+                <p class="card-text">02-04 Juli 2025</p>
+                <small class="text-white-50">Klik untuk detail informasi</small>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-8 order-lg-1 order-2">
+          <!-- Card Afirmasi -->
+          <div class="col-md-4">
+            <div class="card card-jalur h-100 shadow" data-bs-toggle="modal" data-bs-target="#modalAfirmasi" style="cursor:pointer;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Afirmasi</h5>
+                <p class="card-text">02-04 Juli 2025</p>
+                <small class="text-white-50">Klik untuk detail informasi</small>
+              </div>
+            </div>
+          </div>
+          <!-- Card Prestasi Rapor -->
+          <div class="col-md-4">
+            <div class="card card-jalur h-100 shadow" data-bs-toggle="modal" data-bs-target="#modalPrestasiRapor" style="cursor:pointer;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Prestasi Rapor</h5>
+                <p class="card-text">02-04 Juli 2025</p>
+                <small class="text-white-50">Klik untuk detail informasi</small>
+              </div>
+            </div>
+          </div>
+          <!-- Card Prestasi Akademik/Non Akademik -->
+          <div class="col-md-4">
+            <div class="card card-jalur h-100 shadow" data-bs-toggle="modal" data-bs-target="#modalPrestasiAkademik" style="cursor:pointer;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Prestasi Akademik/Non Akademik</h5>
+                <p class="card-text">02-04 Juli 2025</p>
+                <small class="text-white-50">Klik untuk detail informasi</small>
+              </div>
+            </div>
+          </div>
+          <!-- Card Mutasi -->
+          <div class="col-md-4">
+            <div class="card card-jalur h-100 shadow" data-bs-toggle="modal" data-bs-target="#modalMutasi" style="cursor:pointer;">
+              <div class="card-body text-center">
+                <h5 class="card-title">Mutasi</h5>
+                <p class="card-text">02-04 Juli 2025</p>
+                <small class="text-white-50">Klik untuk detail informasi</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Domisili -->
+    <div class="modal fade" id="modalDomisili" tabindex="-1" aria-labelledby="modalDomisiliLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalDomisiliLabel">Informasi Daftar Ulang Jalur Domisili</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+          </div>
+          <div class="modal-body">
+            
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR DOMISILI</h2>
             <p class="mt-4 mb-2 text-start">Daftar Ulang akan dilaksanakan pada :</p>
             <div class="mb-2 text-start"><strong>Hari</strong> : Rabu - Jumat</div>
             <div class="mb-2 text-start"><strong>Tanggal</strong> : 02 - 04 Juli 2025</div>
-            <div class="mb-2 text-start"><strong>Waktu</strong> : 07.30 - 14.30 WIB</div>
+            <div class="mb-2 text-start"><strong>Waktu</strong> : 08.00 - 14.00 WIB</div>
             <div class="mb-2 text-start"><strong>Berkas yang diperlukan</strong> :
               <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle mb-0">
@@ -121,22 +176,23 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Daftar Ulang Afirmasi SPMB SMPN 21 Bogor Section -->
-    <section id="daftar-ulang-afirmasi" class="section light-background" style="background: url('assets/img/buat-afirmasi.png') center center/cover no-repeat;">
-      <div class="container tes-kompetensi-card" data-aos="fade-up">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
-            <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
-            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
+    <!-- Modal Afirmasi -->
+    <div class="modal fade" id="modalAfirmasi" tabindex="-1" aria-labelledby="modalAfirmasiLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAfirmasiLabel">Informasi Daftar Ulang Jalur Afirmasi</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
           </div>
-          <div class="col-lg-8 order-lg-1 order-2">
+          <div class="modal-body">
+            
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG AFIRMASI</h2>
             <p class="mt-4 mb-2">Dilaksanakan pada :</p>
             <div class="mb-2"><strong>Hari</strong> : Rabu - Jumat</div>
             <div class="mb-2"><strong>Tanggal</strong> : 02 - 04 Juli 2025</div>
-            <div class="mb-2"><strong>Waktu</strong> : 07.30 - 14.30 WIB</div>
+            <div class="mb-2"><strong>Waktu</strong> : 08.00 - 14.00 WIB</div>
             <div class="mb-2"><strong>Berkas yang diperlukan</strong> :
               <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle mb-0">
@@ -162,22 +218,23 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Daftar Ulang Prestasi Rapor SPMB SMPN 21 Bogor Section -->
-    <section id="daftar-ulang-prestasi-rapor" class="section light-background" style="background: url('assets/img/backgroud-tesakademik.png') center center/cover no-repeat;">
-      <div class="container tes-kompetensi-card" data-aos="fade-up">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
-            <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
-            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
+    <!-- Modal Prestasi Rapor -->
+    <div class="modal fade" id="modalPrestasiRapor" tabindex="-1" aria-labelledby="modalPrestasiRaporLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPrestasiRaporLabel">Informasi Daftar Ulang Jalur Prestasi Rapor</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
           </div>
-          <div class="col-lg-8 order-lg-1 order-2">
+          <div class="modal-body">
+            
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI RAPOR</h2>
             <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru Prestasi Non Akademik untuk hadir pada :</p>
             <div class="mb-2 text-start"><strong>Hari</strong> : Rabu - Jumat</div>
             <div class="mb-2 text-start"><strong>Tanggal</strong> : 02 - 04 Juli 2025</div>
-            <div class="mb-2 text-start"><strong>Waktu</strong> : 07.30 - 14.30 WIB</div>
+            <div class="mb-2 text-start"><strong>Waktu</strong> : 08.00 - 14.00 WIB</div>
             <div class="mb-2 text-start"><strong>Berkas yang diperlukan</strong> :
               <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle mb-0">
@@ -202,22 +259,23 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Daftar Ulang Prestasi Akademik & Non Akademik SPMB SMPN 21 Bogor Section -->
-    <section id="daftar-ulang-prestasi-akademik-non-akademik" class="section light-background" style="background: url('assets/img/backgroud-tesakademik.png') center center/cover no-repeat;">
-      <div class="container tes-kompetensi-card" data-aos="fade-up">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
-            <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
-            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
+    <!-- Modal Prestasi Akademik/Non Akademik -->
+    <div class="modal fade" id="modalPrestasiAkademik" tabindex="-1" aria-labelledby="modalPrestasiAkademikLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPrestasiAkademikLabel">Informasi Daftar Ulang Jalur Prestasi Akademik/Non Akademik</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
           </div>
-          <div class="col-lg-8 order-lg-1 order-2">
+          <div class="modal-body">
+            
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI AKADEMIK/NON AKADEMIK</h2>
             <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru jalur Prestasi Akademik/Non Akademik untuk hadir pada :</p>
             <div class="mb-2 text-start"><strong>Hari</strong> : Rabu - Jumat</div>
             <div class="mb-2 text-start"><strong>Tanggal</strong> : 02-04 Juli 2025</div>
-            <div class="mb-2 text-start"><strong>Waktu</strong> : 07.30 - 14.30 WIB</div>
+            <div class="mb-2 text-start"><strong>Waktu</strong> : 08.00 - 14.00 WIB</div>
             <div class="mb-2 text-start"><strong>Berkas yang diperlukan</strong> :
               <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle mb-0">
@@ -242,17 +300,18 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Daftar Ulang Mutasi SPMB SMPN 21 Bogor Section -->
-    <section id="daftar-ulang-mutasi" class="section light-background" style="background: url('assets/img/backgroud-tesnonakademik.png') center center/cover no-repeat;">
-      <div class="container tes-kompetensi-card" data-aos="fade-up">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
-            <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
-            <div class="fw-bold" style="color:var(--accent-color); font-size:1.5rem;">Juli 2025</div>
+    <!-- Modal Mutasi -->
+    <div class="modal fade" id="modalMutasi" tabindex="-1" aria-labelledby="modalMutasiLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalMutasiLabel">Informasi Daftar Ulang Jalur Mutasi</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
           </div>
-          <div class="col-lg-8 order-lg-1 order-2">
+          <div class="modal-body">
+            
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR MUTASI</h2>
             <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru jalur Mutasi untuk hadir pada :</p>
             <div class="mb-2 text-start"><strong>Hari</strong> : Senin</div>
@@ -284,7 +343,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Embed Map Section -->
     <section id="lokasi" class="section light-background">

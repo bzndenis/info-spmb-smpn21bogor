@@ -143,3 +143,19 @@ body.index-page {
 .table.table-striped > tbody > tr > * {
   --bs-table-bg-type: unset !important;
 }
+
+.card-jalur {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.card-jalur .card-title,
+.card-jalur .card-text,
+.card-jalur small {
+  color: #fff !important;
+}
+.card-jalur:hover {
+  background: #1256a3;
+  box-shadow: 0 4px 24px rgba(25, 118, 210, 0.2);
+}
