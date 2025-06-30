@@ -30,14 +30,6 @@
   <!-- Custom CSS File -->
   <link href="assets/css/custom.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://koys.my.id/spmb-smpn21bogor/">
@@ -65,8 +57,7 @@
         <li><a href="#daftar-ulang-domisili"><i class="bi bi-clipboard-check navicon"></i><span>Domisili</span></a></li>
         <li><a href="#daftar-ulang-afirmasi"><i class="bi bi-person-bounding-box navicon"></i><span>Afirmasi</span></a></li>
         <li><a href="#daftar-ulang-prestasi-rapor"><i class="bi bi-trophy navicon"></i><span>Prestasi Rapor</span></a></li>
-        <li><a href="#daftar-ulang-prestasi-akademik"><i class="bi bi-book navicon"></i><span>Prestasi Akademik</span></a></li>
-        <li><a href="#daftar-ulang-prestasi-non-akademik"><i class="bi bi-joystick navicon"></i><span>Prestasi Non Akademik</span></a></li>
+        <li><a href="#daftar-ulang-prestasi-akademik-non-akademik"><i class="bi bi-book navicon"></i><span>Prestasi Akademik/Non Akademik</span></a></li>
         <li><a href="#daftar-ulang-mutasi"><i class="bi bi-arrow-repeat navicon"></i><span>Mutasi</span></a></li>
         <li><a href="#lokasi"><i class="bi bi-geo-alt navicon"></i><span>Lokasi</span></a></li>
       </ul>
@@ -204,63 +195,22 @@
                 </table>
               </div>
             </div>
-            <div class="fst-italic mb-2" style="color:#444;">"Pengantar tidak diperkenankan menggunakan kendaraan roda 4."</div>
-            <div class="mt-4"><span class="fw-bold fs-4" style="color:var(--accent-color);">Tempat : SMPN 21 Bogor</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
- 
-    <!-- Daftar Ulang Prestasi Akademik SPMB SMPN 21 Bogor Section -->
-    <section id="daftar-ulang-prestasi-akademik" class="section light-background" style="background: url('assets/img/backgroud-tesrapor.png') center center/cover no-repeat;">
-      <div class="container tes-kompetensi-card" data-aos="fade-up">
-        <div class="row align-items-center">
-          <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
-            <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
-          </div>
-          <div class="col-lg-8 order-lg-1 order-2">
-            <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI AKADEMIK</h2>
-            <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru Prestasi Rapor untuk hadir pada :</p>
-            <div class="mb-2 text-start"><strong>Hari</strong> : Rabu - Jumat</div>
-            <div class="mb-2 text-start"><strong>Tanggal</strong> : 02 - 04 Juli 2025</div>
-            <div class="mb-2 text-start"><strong>Waktu</strong> : 07.30 - 14.30 WIB</div>
-            <div class="mb-2 text-start"><strong>Berkas yang diperlukan</strong> :
-              <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle mb-0">
-                  <tbody>
-                    <tr><td>1.</td><td>FC. KK.</td></tr>
-                    <tr><td>2.</td><td>FC Akta Kelahiran / Surat Kenal Lahir / KIA</td></tr>
-                    <tr><td>3.</td><td>Surat Bukti Pendaftaran diterima di SMPN 21</td></tr>
-                    <tr><td>4.</td><td>FC Ijazah Legalisir / SKL</td></tr>
-                    <tr><td>5.</td><td>FC NISN</td></tr>
-                    <tr><td>6.</td><td>FC KTP Ortu</td></tr>
-                    <tr><td>7.</td><td>SPTJM. Ortu</td></tr>
-                    <tr><td>8.</td><td>Pas foto 3X4 latar merah (2 lembar)</td></tr>
-                    <tr><td>9.</td><td>Daftar Isian Peserta Dapodik</td></tr>
-                    <tr><td>10.</td><td>Surat Pernyataan peserta didik</td></tr>
-                    <tr><td>11.</td><td>Membawa dan memperlihatkan Kelengkapan Berkas Asli</td></tr>
-                    <tr><td colspan="2"><b>Semua persyaratan dimasukkan dalam:</b><br>Map berwarna <b>biru</b> untuk calon murid baru <b>laki-laki</b><br>Map berwarna <b>merah</b> untuk calon murid baru <b>perempuan</b></td></tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <div class="fst-italic mb-2" style="color:#444;">"Pengantar tidak diperkenankan menggunakan kendaraan roda 4."</div>
             <div class="mt-4"><span class="fw-bold fs-4" style="color:var(--accent-color);">Tempat : SMPN 21 Bogor</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Daftar Ulang Prestasi Non Akademik SPMB SMPN 21 Bogor Section -->
-    <section id="daftar-ulang-prestasi-non-akademik" class="section light-background" style="background: url('assets/img/backgroud-tesakademik.png') center center/cover no-repeat;">
+    <!-- Daftar Ulang Prestasi Akademik & Non Akademik SPMB SMPN 21 Bogor Section -->
+    <section id="daftar-ulang-prestasi-akademik-non-akademik" class="section light-background" style="background: url('assets/img/backgroud-tesakademik.png') center center/cover no-repeat;">
       <div class="container tes-kompetensi-card" data-aos="fade-up">
         <div class="row align-items-center">
           <div class="col-lg-4 text-center order-lg-2 order-1 mb-3 mb-lg-0">
             <span class="display-1 fw-bold kompetensi-angka" style="color:var(--accent-color); font-size:8rem; line-height:1;">02-04</span>
           </div>
           <div class="col-lg-8 order-lg-1 order-2">
-            <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI NON AKADEMIK</h2>
-            <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru Prestasi Akademik untuk hadir pada :</p>
+            <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI AKADEMIK/NON AKADEMIK</h2>
+            <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru jalur Prestasi Akademik/Non Akademik untuk hadir pada :</p>
             <div class="mb-2 text-start"><strong>Hari</strong> : Rabu - Jumat</div>
             <div class="mb-2 text-start"><strong>Tanggal</strong> : 02-04 Juli 2025</div>
             <div class="mb-2 text-start"><strong>Waktu</strong> : 07.30 - 14.30 WIB</div>
@@ -284,7 +234,6 @@
                 </table>
               </div>
             </div>
-            <div class="fst-italic mb-2" style="color:#444;">"Pengantar tidak diperkenankan menggunakan kendaraan roda 4."</div>
             <div class="mt-4"><span class="fw-bold fs-4" style="color:var(--accent-color);">Tempat : SMPN 21 Bogor</span></div>
           </div>
         </div>
@@ -308,23 +257,24 @@
               <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle mb-0">
                   <tbody>
-                    <tr><td>1.</td><td>FC. KK.</td></tr>
-                    <tr><td>2.</td><td>FC Akta Kelahiran / Surat Kenal Lahir / KIA</td></tr>
-                    <tr><td>3.</td><td>Surat Bukti Pendaftaran diterima di SMPN 21</td></tr>
-                    <tr><td>4.</td><td>FC Ijazah Legalisir / SKL</td></tr>
-                    <tr><td>5.</td><td>FC NISN</td></tr>
-                    <tr><td>6.</td><td>FC KTP Ortu</td></tr>
-                    <tr><td>7.</td><td>SPTJM. Ortu</td></tr>
-                    <tr><td>8.</td><td>Pas foto 3X4 latar merah (2 lembar)</td></tr>
-                    <tr><td>9.</td><td>Daftar Isian Peserta Dapodik</td></tr>
-                    <tr><td>10.</td><td>Surat Pernyataan peserta didik</td></tr>
-                    <tr><td>11.</td><td>Membawa dan memperlihatkan Kelengkapan Berkas Asli</td></tr>
+                    <tr><td>1.</td><td>FC Surat Penugasan (Jalur anak guru/tenaga kependidikan)</td></tr>
+                    <tr><td>2.</td><td>FC Surat Penugasan dari instansi/lembaga/perusahaan yang memperkerjakan orang tua.</td></tr>
+                    <tr><td>3.</td><td>FC Surat Keterangan Pindah Domisili</td></tr>
+                    <tr><td>4.</td><td>FC. KK.</td></tr>
+                    <tr><td>5.</td><td>FC Akta Kelahiran / Surat Kenal Lahir / KIA</td></tr>
+                    <tr><td>6.</td><td>Surat Bukti Pendaftaran diterima di SMPN 21</td></tr>
+                    <tr><td>7.</td><td>FC Ijazah Legalisir / SKL</td></tr>
+                    <tr><td>8.</td><td>FC NISN</td></tr>
+                    <tr><td>9.</td><td>FC KTP Ortu</td></tr>
+                    <tr><td>10.</td><td>SPTJM. Ortu</td></tr>
+                    <tr><td>11.</td><td>Pas foto 3X4 latar merah (2 lembar)</td></tr>
+                    <tr><td>12.</td><td>Daftar Isian Peserta Dapodik</td></tr>
+                    <tr><td>13.</td><td>Surat Pernyataan peserta didik</td></tr>
                     <tr><td colspan="2"><b>Semua persyaratan dimasukkan dalam:</b><br>Map berwarna <b>biru</b> untuk calon murid baru <b>laki-laki</b><br>Map berwarna <b>merah</b> untuk calon murid baru <b>perempuan</b></td></tr>
                   </tbody>
                 </table>
               </div>
             </div>
-            <div class="fst-italic mb-2" style="color:#444;">"Pengantar tidak diperkenankan menggunakan kendaraan roda 4."</div>
             <div class="mt-4"><span class="fw-bold fs-4" style="color:var(--accent-color);">Tempat : SMPN 21 Bogor</span></div>
           </div>
         </div>
