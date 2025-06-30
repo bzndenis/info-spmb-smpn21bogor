@@ -229,7 +229,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
           </div>
           <div class="modal-body">
-            
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI RAPOR</h2>
             <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru Prestasi Non Akademik untuk hadir pada :</p>
             <div class="mb-2 text-start"><strong>Hari</strong> : Rabu - Jumat</div>
@@ -250,6 +249,8 @@
                     <tr><td>9.</td><td>Daftar Isian Peserta Dapodik</td></tr>
                     <tr><td>10.</td><td>Surat Pernyataan peserta didik</td></tr>
                     <tr><td>11.</td><td>Membawa dan memperlihatkan Kelengkapan Berkas Asli</td></tr>
+                    <tr><td>12.</td><td>Fotocopy Rapor Kelas 4 smtr 1-2, kelas 5 smtr 1-2, kelas 6 smtr 1</td></tr>
+                    <tr><td>13.</td><td>Surat Keterangan Peringkat dari Kepala Sekolah SD/MI</td></tr>
                     <tr><td colspan="2"><b>Semua persyaratan dimasukkan dalam:</b><br>Map berwarna <b>biru</b> untuk calon murid baru <b>laki-laki</b><br>Map berwarna <b>merah</b> untuk calon murid baru <b>perempuan</b></td></tr>
                   </tbody>
                 </table>
@@ -270,7 +271,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
           </div>
           <div class="modal-body">
-            
             <h2 class="fw-bold" style="color:var(--accent-color);">BERKAS UMUM DAFTAR ULANG JALUR PRESTASI AKADEMIK/NON AKADEMIK</h2>
             <p class="mt-4 mb-2 text-start">SMP N 21 Bogor mengundang seluruh calon murid baru jalur Prestasi Akademik/Non Akademik untuk hadir pada :</p>
             <div class="mb-2 text-start"><strong>Hari</strong> : Rabu - Jumat</div>
@@ -291,6 +291,10 @@
                     <tr><td>9.</td><td>Daftar Isian Peserta Dapodik</td></tr>
                     <tr><td>10.</td><td>Surat Pernyataan peserta didik</td></tr>
                     <tr><td>11.</td><td>Membawa dan memperlihatkan Kelengkapan Berkas Asli</td></tr>
+                    <tr><td>12.</td><td>Surat Kesiapan mengembangkan prestasi (dibuatkan SMP N 21)</td></tr>
+                    <tr><td>13.</td><td>FC Sertifikat/Piagam Prestasi</td></tr>
+                    <tr><td>14.</td><td>Surat Keterangan Prestasi dari Kepala Sekolah SD/MI</td></tr>
+                    <tr><td>15.</td><td>Surat Pernyataan Kebenaran Sertifikat/Piagam dari Induk Organisasi tempat perlombaan/Kejuaraan diselenggarakan.</td></tr>
                     <tr><td colspan="2"><b>Semua persyaratan dimasukkan dalam:</b><br>Map berwarna <b>biru</b> untuk calon murid baru <b>laki-laki</b><br>Map berwarna <b>merah</b> untuk calon murid baru <b>perempuan</b></td></tr>
                   </tbody>
                 </table>
